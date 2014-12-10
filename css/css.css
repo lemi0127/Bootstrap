@@ -1,0 +1,120 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin: 0 0 50px;
+    
+}
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+}
+
+p, h3, h4, h5, h6{
+    font-family: 'Kameron', serif;
+}
+
+h1, h2, .control-label, .stand{
+   font-family: 'Sansita one', serif; 
+}
+
+.bannerH{
+    position: relative;
+    background-image: url(../img/bannerquidditch.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: table;
+    width: 100%
+}
+
+.bannerS{
+    position: relative;
+    background-image: url(../img/standingsbanner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: table;
+    width: 100%
+}
+
+.bannerL{
+    position: relative;
+    background-image: url(../img/locationbanner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: table;
+    width: 100%
+}
+
+.bannerSU{
+    position: relative;
+    background-image: url(../img/1341707642863_ORIGINAL.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: table;
+    width: 100%
+}
+
+.banner_inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.logo_wrap{
+    background: rgba(255,255,255,0.6);
+    max-height: 300px;
+}
+
+.logo{
+    max-width: 100%;
+    height:auto;
+    margin:0 auto;
+    display:block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    position: fixed bottom;
+    
+}
+
+@media only screen and (max-width: 767px) {
+    
+     .logo_wrap{
+        margin-top: 170px;
+    }
+}
+
+h1{
+   text-align: center;
+}
+
+.img-responsive{
+    vertical-align: middle;
+    width: 100%;
+    height:auto;
+}
+
+.img-responsive-j{
+    vertical-align: middle;
+    width: 100%;
+    max-height: 500px;
+    max-width: 350px;
+}
+
+h5{
+   text-align: center;
+}
